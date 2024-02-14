@@ -1,3 +1,4 @@
+
 def is_power_of_four(number):
     if number <= 0:
         return False
@@ -16,3 +17,9 @@ def unique_n(num):
         if i not in unique:
             unique.append(i)
     return len(unique) == 4
+
+def check_even_odd(number):
+    if number % 2 == 0:
+        return "Парне число"
+    else:
+        return "Непарне число"
